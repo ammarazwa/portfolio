@@ -634,7 +634,7 @@ export default function ContactPage() {
 
           {/* Pink sticky note below form */}
           <div className="zine-note" style={{ marginLeft: 'auto', marginRight: 12 }}>
-            response time: usually within 24–48h ✦
+           If you have any cool project ideas or just want to say hi, don&apos;t hesitate to reach out!
           </div>
         </div>
       </div>

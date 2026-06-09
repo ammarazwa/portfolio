@@ -44,14 +44,14 @@ const desktopIcons: DesktopIconItem[] = [
 ]
 
 const initialWindows: WindowState[] = [
-  { id: 'documents', title: 'My Documents', icon: '/icons/my-documents.png', x: 280, y: 90, zIndex: 21, minimized: false, closed: false },
+  { id: 'documents', title: 'My Projects', icon: '/icons/my-documents.png', x: 280, y: 90, zIndex: 21, minimized: false, closed: false },
   { id: 'warning', title: 'Warning', icon: '/icons/alert.png', x: 860, y: 110, zIndex: 22, minimized: false, closed: false },
-  { id: 'paint', title: 'untitled - Paint', icon: '/icons/paint.png', x: 150, y: 315, zIndex: 23, minimized: false, closed: false },
-  { id: 'terminal', title: 'Command Prompt', icon: '/icons/terminal.png', x: 305, y: 500, zIndex: 24, minimized: false, closed: false },
+  { id: 'paint', title: 'Status - Paint', icon: '/icons/paint.png', x: 150, y: 315, zIndex: 23, minimized: false, closed: false },
   { id: 'likes', title: 'Open - My Documents', icon: '/icons/heart.png', x: 760, y: 440, zIndex: 25, minimized: false, closed: false },
   { id: 'audio', title: 'bgm.mp3 - Windows Media Player', icon: '/icons/audio.png', x: 1060, y: 445, zIndex: 26, minimized: false, closed: false },
-  { id: 'image', title: 'ammara-photo.jpg', icon: '/icons/image.png', x: 1240, y: 76, zIndex: 27, minimized: false, closed: false },
-  { id: 'notepad', title: 'about_me.txt - Notepad', icon: '/icons/notepad.png', x: 605, y: 175, zIndex: 60, minimized: false, closed: false },
+  { id: 'terminal', title: 'My Skills', icon: '/icons/terminal.png', x: 305, y: 300, zIndex: 24, minimized: false, closed: false },
+  { id: 'image', title: 'ammara-photo.jpg', icon: '/icons/image.png', x: 1140, y: 76, zIndex: 27, minimized: false, closed: false },
+  { id: 'notepad', title: 'about_me.txt - Notepad', icon: '/icons/notepad.png', x: 505, y: 175, zIndex: 60, minimized: false, closed: false },
 ]
 
 const skills = [

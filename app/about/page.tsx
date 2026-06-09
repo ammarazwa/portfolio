@@ -161,7 +161,7 @@ function SkillBadge({ s }: { s: (typeof SKILLS)[0] }) {
 
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 5, width: 52, cursor: "default" }}
+      style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", cursor: "default" }}
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
     >
@@ -183,9 +183,22 @@ function SkillBadge({ s }: { s: (typeof SKILLS)[0] }) {
       >
         {s.label}
       </div>
-      <span className={pixel.className} style={{ fontSize: 7, textAlign: "center", color: "#333", lineHeight: 1.3 }}>
-        {s.name}
-      </span>
+
+      {hov && (
+        <div style={{
+          position: "absolute", bottom: -26, left: "50%",
+          transform: "translateX(-50%)",
+          background: "#0a246a", color: "#fff",
+          padding: "3px 8px",
+          fontFamily: "Arial,sans-serif", fontSize: 10,
+          whiteSpace: "nowrap", zIndex: 10,
+          border: "1px solid #fff",
+          boxShadow: "2px 2px 0 rgba(0,0,0,0.3)",
+          pointerEvents: "none",
+        }}>
+          {s.name}
+        </div>
+      )}
     </div>
   );
 }
@@ -294,11 +307,12 @@ export default function AboutPage() {
             </div>
 
             <h1 className={pixel.className} style={{ margin: "0 0 18px", fontSize: 15, lineHeight: 1.7, color: "#9b008b", textDecoration: "underline", textUnderlineOffset: 6, textDecorationThickness: 2 }}>
-              Ammara Azwadiena
+              Ammara Azwadiena Alfiantie
             </h1>
 
             <p style={{ maxWidth: 430, margin: "0 0 28px", fontSize: 14, lineHeight: 1.72, color: "#222" }}>
-              Hello! I&apos;m Ammara, an Informatics student who enjoys building digital products with a mix of clean interface design, practical development, and user-centered thinking. I like turning ideas into usable websites, playful interfaces, and meaningful digital experiences.
+              Hello! I'm Ammara, a third-year Informatics Engineering student who enjoys building digital products with a mix of clean interface design, practical development, and user-centered thinking.
+              I love writing and exploring the intersection of impactful storytelling and technology. I see myself as a lifelong learner and a curious kid at heart. People descibe me as someone who loves to try new things, take risks, and grow through challenges.
             </p>
 
             <section style={{ marginBottom: 28 }}>
