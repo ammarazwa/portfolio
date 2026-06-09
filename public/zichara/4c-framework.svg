@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Background retro grid senada dengan tema website -->
+  <rect width="100%" height="100%" fill="#f4efe4" />
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" />
+      <circle cx="2" cy="2" r="1" fill="#e5ded0" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Alur Garis Penghubung (Pipeline) -->
+  <path d="M 130 200 L 670 200" stroke="#171717" stroke-width="4" stroke-dasharray="8 8" />
+
+  <!-- ── BLOK 1: COLLECT ── -->
+  <g transform="translate(50, 100)">
+    <!-- Shadow -->
+    <rect x="5" y="5" width="140" height="180" fill="#171717" />
+    <!-- Main Box -->
+    <rect x="0" y="0" width="140" height="180" fill="#ffffff" stroke="#171717" stroke-width="3" />
+    <!-- Header Accent -->
+    <rect x="0" y="0" width="140" height="15" fill="#9b111e" />
+    <!-- Text -->
+    <text x="70" y="50" font-family="'Courier New', monospace" font-weight="900" font-size="16" fill="#9b111e" text-anchor="middle">01. COLLECT</text>
+    <text x="70" y="90" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Market Research</text>
+    <text x="70" y="110" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">&amp; Competitor</text>
+    <text x="70" y="130" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Insights</text>
+    <!-- Pixel Art Icon Placeholder (Folder) -->
+    <rect x="55" y="150" width="30" height="20" fill="none" stroke="#171717" stroke-width="2" />
+    <path d="M 55 150 L 65 150 L 70 155 L 85 155" fill="none" stroke="#171717" stroke-width="2" />
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 210 190 L 225 200 L 210 210" fill="none" stroke="#171717" stroke-width="4" />
+
+  <!-- ── BLOK 2: CHOOSE ── -->
+  <g transform="translate(240, 100)">
+    <rect x="5" y="5" width="140" height="180" fill="#171717" />
+    <rect x="0" y="0" width="140" height="180" fill="#ffffff" stroke="#171717" stroke-width="3" />
+    <rect x="0" y="0" width="140" height="15" fill="#9b111e" />
+    <text x="70" y="50" font-family="'Courier New', monospace" font-weight="900" font-size="16" fill="#9b111e" text-anchor="middle">02. CHOOSE</text>
+    <text x="70" y="90" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Clustering</text>
+    <text x="70" y="110" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Pain Points</text>
+    <text x="70" y="130" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">&amp; Data Gaps</text>
+    <!-- Pixel Art Icon (Filter/Funnel) -->
+    <polygon points="55,150 85,150 75,165 75,175 65,175 65,165" fill="none" stroke="#171717" stroke-width="2" />
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 400 190 L 415 200 L 400 210" fill="none" stroke="#171717" stroke-width="4" />
+
+  <!-- ── BLOK 3: CREATE ── -->
+  <g transform="translate(430, 100)">
+    <rect x="5" y="5" width="140" height="180" fill="#171717" />
+    <rect x="0" y="0" width="140" height="180" fill="#ffffff" stroke="#171717" stroke-width="3" />
+    <rect x="0" y="0" width="140" height="15" fill="#9b111e" />
+    <text x="70" y="50" font-family="'Courier New', monospace" font-weight="900" font-size="16" fill="#9b111e" text-anchor="middle">03. CREATE</text>
+    <text x="70" y="90" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Formulating</text>
+    <text x="70" y="110" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Design Systems</text>
+    <text x="70" y="130" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">&amp; Directions</text>
+    <!-- Pixel Art Icon (Lightbulb) -->
+    <rect x="62" y="150" width="16" height="16" rx="8" fill="none" stroke="#171717" stroke-width="2" />
+    <rect x="66" y="168" width="8" height="4" fill="none" stroke="#171717" stroke-width="2" />
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M 590 190 L 605 200 L 590 210" fill="none" stroke="#171717" stroke-width="4" />
+
+  <!-- ── BLOK 4: COMMIT ── -->
+  <g transform="translate(610, 100)">
+    <rect x="5" y="5" width="140" height="180" fill="#171717" />
+    <rect x="0" y="0" width="140" height="180" fill="#ffffff" stroke="#171717" stroke-width="3" />
+    <rect x="0" y="0" width="140" height="15" fill="#9b111e" />
+    <text x="70" y="50" font-family="'Courier New', monospace" font-weight="900" font-size="16" fill="#9b111e" text-anchor="middle">04. COMMIT</text>
+    <text x="70" y="90" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Finalizing</text>
+    <text x="70" y="110" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">Core Pillars</text>
+    <text x="70" y="130" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#555555" text-anchor="middle">&amp; App Features</text>
+    <!-- Pixel Art Icon (Checkmark/Target) -->
+    <path d="M 58 160 L 66 168 L 82 152" fill="none" stroke="#171717" stroke-width="3" />
+  </g>
+</svg>
