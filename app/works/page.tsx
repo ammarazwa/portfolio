@@ -72,10 +72,10 @@ const WORKS: Work[] = [
     image: '/images/works/naratrad.png', tags: ['Backend', 'Spring Boot', 'Fintech'], color: '#f48fb1', live: 'https://naratrad.vercel.app', github: 'https://github.com/orgs/NaraStack/repositories', play:"https://canva.link/naratrad"},
   { slug: 'addicx', title: 'Addicx', type: 'GEMASTIK XVIII', role: 'UI/UX Designer', year: '2025',
     description: 'A national-level competition entry — an addiction recovery app for Indonesian youth tackling online gambling and smoking through AI mentorship, gamification, and a stigma-free community. SUS score: 76.',
-    image: '/images/works/addicx.png', tags: ['UI/UX', 'Competition', 'Research'], color: '#80deea', figma:'https://www.figma.com/proto/JvMTFzw8OcdHNpHPlAEOU9/SAFE-ROUTE?node-id=2448-2547&t=5FiRPWNG9AhMzt3b-1&show-proto-sidebar=1&starting-point-node-id=2448%3A2547'},
+    image: '/images/works/addicx.png', tags: ['UI/UX', 'Competition', 'Research'], color: '#80deea', figma:'https://www.figma.com/proto/qgzar1T7KzT0bhf9XK6AZo/Gemastik?node-id=2982-17581&t=lUKgyPthXwiv5z3e-1&starting-point-node-id=2982%3A17745&show-proto-sidebar=1'},
   { slug: 'seluna', title: 'Seluna', type: 'GEMASTIK Competition', role: 'UI/UX Designer', year: '2024',
     description: 'A mobile safety navigation platform designed for women and vulnerable individuals — featuring safe route mapping, SOS access, and a protective community ecosystem. Designed for GEMASTIK.',
-    image: '/images/works/seluna.png', tags: ['UI Design', 'Competition', 'Safety'], color: '#ffcc80', figma: 'https://www.figma.com/proto/qgzar1T7KzT0bhf9XK6AZo/Gemastik?node-id=2982-17581&t=lUKgyPthXwiv5z3e-1&starting-point-node-id=2982%3A17745&show-proto-sidebar=1'},
+    image: '/images/works/seluna.png', tags: ['UI Design', 'Competition', 'Safety'], color: '#ffcc80', figma: 'https://www.figma.com/proto/JvMTFzw8OcdHNpHPlAEOU9/SAFE-ROUTE?node-id=2448-2547&t=5FiRPWNG9AhMzt3b-1&show-proto-sidebar=1&starting-point-node-id=2448%3A2547'},
 ]
 
 const NAV_H = 34       // px — matches .top-tabs height
